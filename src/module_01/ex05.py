@@ -5,7 +5,7 @@ Exercise 05
 # Input function and type conversion / casting
 print('\nInput function:')
 # Data collected by the input function is of type string.
-# Some scenarios demands type casting, since Python doesn't provide type coersion.
+# Some scenarios demand type casting, since Python doesn't provide type coersion.
 # Not applying the conversion would result in a Type Error.
 # Possible type casting functions are: int(), float(), bool() and str().
 res = input('Type a number: ')
