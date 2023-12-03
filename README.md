@@ -6,7 +6,7 @@
 - [x] `Python` for autocompletion, debugging, unit tests and more.
 - [x] `Pylint` for linting (`CTRL + SHIFT + M` to check linting problems).
 - [x] `Pylance` for intelliSense.
-- [x] `autopep8` for code formatting (turn on 'formatOnSave' setting). More about Python PEPs [here](https://peps.python.org/pep-0008/)
+- [x] `autopep8` for code formatting (turn on 'formatOnSave' setting). More about Python PEPs [here](https://peps.python.org/pep-0008/).
 
 # Some considerations
 
