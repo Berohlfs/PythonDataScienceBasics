@@ -15,3 +15,22 @@ print("bag" == "BAG")  # False. 'B' and 'b' are different in ASCII table.
 # Ord function
 print('\nOrd function:')
 print(ord('B'))  # Converts a single character into its integer representation
+
+
+# Falsy values
+
+# Empty lists
+# Empty tuples
+# Empty dictionaries
+# Empty sets
+# Empty strings
+# Empty ranges
+# Zero (0, 0.0 or even 0j)
+# None
+# False
+
+# Truthy values
+
+# Non empty lists, tuples, dictionaries, sets, strings or ranges
+# Numbers different from zero
+# True
