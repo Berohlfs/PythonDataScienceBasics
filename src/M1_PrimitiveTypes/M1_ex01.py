@@ -1,11 +1,7 @@
-"""
-Exercise 01
-"""
-
-# Python's primitive types are: number, boolean and string.
-
 # Variables
-number = 5
+# Python's primitive types are: integer, float, boolean and string.
+number_int = 5
+number_float = 5.5
 string = 'Hello world!'
 boolean = True
 
@@ -14,15 +10,10 @@ long_string = """Hi John,
 How are you doing?"""
 
 # Print function
-print('\nPrint function:')
-print(number)
-print(string)
-print(boolean)
-print(long_string)
+print('\nPrinting a number' + number_int)
 
 # Len function
-print('\nLen function:')
-print(len(long_string))
+print('\nAmount of characters:' + len(long_string))
 
 # String indexes
 print('\nString indexes:')
@@ -38,5 +29,4 @@ print(
 # An escape character is a backslash (\) followed by the character you want to insert.
 # Escape sequences examples: \', \", \n
 # print('\') --> Error. '\' is a special character. Fix this using a escape sequence:
-print('\nEscape characters:')
-print('\\')
+print('\nEscape characters: \\, \', \"')

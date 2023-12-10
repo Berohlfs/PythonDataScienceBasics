@@ -1,8 +1,6 @@
-"""
-Exercise 07
-"""
+# If statement
+print('\nHow is the weather?')
 
-# 'if' statement
 temperature = 28
 if temperature > 30:
     print('It\'s hot!')
@@ -11,19 +9,19 @@ elif temperature > 0:
 else:
     print('it\'s freezing!')
 
-print('done')
-
 # Ternary operator
-random_number = 2 if temperature > 30 else 1
-print(random_number)
+conditional_number = 2 if temperature > 30 else 1
+print(f'Random number: {conditional_number}')
 
 # Logical operators (and, or, not)
 # These operators follow a short-circuit evaluation
-if random_number == 2 and temperature < 30:
+print('\nLogical operators:')
+if conditional_number == 2 and temperature < 30:
     print('Yep...')
 else:
     print('Nope...')
 
 # Chaining operators
+print('\nChaining operators:')
 if 0 < temperature < 30:
     print('ok')

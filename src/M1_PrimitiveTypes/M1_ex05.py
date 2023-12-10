@@ -1,9 +1,4 @@
-"""
-Exercise 05
-"""
-
-# Input function and type conversion / casting
-print('\nInput function:')
+# Input function and type conversion (casting):
 # Data collected by the input function is of type string.
 # Some scenarios demand type casting, since Python doesn't provide type coersion.
 # Not applying the conversion would result in a Type Error.

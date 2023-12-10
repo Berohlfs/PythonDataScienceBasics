@@ -1,6 +1,3 @@
-"""
-Exercise 04
-"""
 import math  # https://docs.python.org/3/library/math.html
 
 # Number functions

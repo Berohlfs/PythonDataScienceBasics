@@ -1,7 +1,3 @@
-"""
-Exercise 06
-"""
-
 # Comparison operators (numbers)
 print('\nComparison operators (numbers):')
 print(10 > 10)
