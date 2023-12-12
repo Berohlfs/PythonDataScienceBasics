@@ -32,5 +32,14 @@ print(
     first_name[-1],
     first_name[1:4],
     first_name[3:],
-    first_name[:3]
+    first_name[:3],
+    # 'start : stop : step' notation (defaults --> [0:-1:1]).
+    first_name[0::2],
+    # When the step is negative, the default values for 'start' and 'stop'
+    # change to [-1, 0]
+    first_name[::-1]
 )
+
+# Obs: Strings are immutable.
+# This means that the only way to update a string is to define a new value
+# to it's variable.
