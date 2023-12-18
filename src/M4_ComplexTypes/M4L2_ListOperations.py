@@ -26,7 +26,7 @@ print(f'\nNumbers of "ones": {numbers.count(1)}')
 numbers.append(6)
 
 # Add 4 to the index '1'
-numbers.insert(1, 10)
+numbers.insert(1, 4)
 
 # FINDING =====================================|
 
