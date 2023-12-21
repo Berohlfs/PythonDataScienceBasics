@@ -5,9 +5,17 @@ numbers = [1, 1, 2, 3, 4, 5]
 # Returns a sorted copy of a list
 print(f'\nSorted copy: {sorted(numbers)}')
 # Sorts the original list
-print(f'\nSorted original: {numbers.sort()} (Does not return)')
+print(f'\nSorted original: {numbers.sort(reverse=True)} (Does not return)')
 
-# Obs --> Both 'sort' and 'sorted' accept a 'reverse' parameter of type boolean.
+# Both 'sort' and 'sorted' accept a 'REVERSE' parameter of type boolean.
+
+# Both 'sort' and 'sorted' accept a 'KEY' parameter for complex sorting.
+# This parameter accepts a callable object, in other words, a function
+
+products = [('Soap', 10), ('Water', 5)]
+print(f'\nSorted with key: {sorted(products, key=lambda item:item[0])}')
+
+# Observe the anonymous function syntax used in the example above.
 
 # CHECKING =====================================|
 
@@ -32,7 +40,7 @@ numbers.insert(1, 4)
 
 # Finds index of element (1st occurrence)
 # ERROR if the element does not exist (should check first)
-print(f'\nIndex of "10": {numbers.index(10)}')
+print(f'\nIndex of "10": {numbers.index(4)}')
 
 # REMOVING =====================================|
 

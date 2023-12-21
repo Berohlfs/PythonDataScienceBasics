@@ -33,10 +33,8 @@ print(
     first_name[1:4],
     first_name[3:],
     first_name[:3],
-    # 'start : stop : step' notation (defaults --> [0:-1:1]).
+    # 'start : stop : step' notation. (a negative step inverts the access direction)
     first_name[0::2],
-    # When the step is negative, the default values for 'start' and 'stop'
-    # change to [-1, 0]
     first_name[::-1]
 )
 
