@@ -121,7 +121,7 @@ print(second_person.get('age', 0))
 # each iteration will be the dictionarie's keys
 # However...
 # --> 'dic.values()' will return the values.
-# --> 'dic.items()' will return the pairs as tuples in an array.
+# --> 'dic.items()' will return the pairs as tuples in an array (VERY USEFUL FOR SORTING AND MORE).
 
 # Dictionary comprehensions
 dictionary_comprehension = {number: number * 2 for number in range(5)}
