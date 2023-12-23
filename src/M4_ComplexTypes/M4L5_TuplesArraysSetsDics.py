@@ -77,3 +77,52 @@ print(f'Union of both: {first | second}')
 print(f'Intersection: {first & second}')
 print(f'First - intersection: {first - second}')
 print(f'Both - intersection: {first ^ second}')
+
+# Set comprehensions
+set_comprehension = {number * 2 for number in first}
+print(f'\nSet comprehension: {set_comprehension}')
+
+# Dictionaries =============================|
+
+# Dictionaries are data structures that contain 'key-value' pairs.
+# Keys must belong to immutable types (strings, tuples, integers, etc).
+
+person = {
+    'name': 'Bernardo',
+    'age': 21,
+    0: 'Example of numeric key'
+}
+
+print(f'\nPerson: {person}')
+# A dictionary attribute can't be indexed. Instead, use the property's name.
+print(f'Age: {person["age"]}')
+
+# You can also create a dictionary with the 'dic' constructor
+second_person = dict(name='João', age=19)
+
+# Add new properties...
+second_person['new_prop'] = 'blabla'
+
+# Delete property...
+del second_person['age']
+
+print(f'\n2º Person: {second_person}')
+print(f'Name: {second_person["name"]}')
+
+# Check existence of a key...
+if 'new_prop' in second_person:
+    print('Existe!!')
+
+# Or
+# 0 is the default value in case 'age' isn't found
+print(second_person.get('age', 0))
+
+# Obs: When we iterate over a dictionary, the values returned on
+# each iteration will be the dictionarie's keys
+# However...
+# --> 'dic.values()' will return the values.
+# --> 'dic.items()' will return the pairs as tuples in an array.
+
+# Dictionary comprehensions
+dictionary_comprehension = {number: number * 2 for number in range(5)}
+print(f'\nDictionary comprehension: {dictionary_comprehension}')
