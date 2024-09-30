@@ -1,14 +1,11 @@
-# Setup
+# Setup (Jupyter Notebook)
 
-* Install Python [here](https://www.python.org/). Don't forget to add it to 'PATH'.
-* Install VSCode's extensions:
+* Install Python [here](https://www.python.org/).
+* Install Jupyter (`pip install jupyter`).
+* Create a folder and open it inside the terminal.
+* Type `jupyter notebook` (this will open up the jupyter code editor on your browser).
 
-- [x] `Python` for autocompletion, debugging, unit tests and more.
-- [x] `Pylint` for linting. Press `CTRL + SHIFT + M` to check linting problems (linting rules at `.vscode/settings.json`).
-- [x] `Pylance` for intelliSense.
-- [x] `autopep8` for code formatting (turn on 'formatOnSave' setting). More about Python PEPs [here](https://peps.python.org/pep-0008/).
-
-# Some considerations
+# A bit about Python's execution
 
 * **Compiled languages** transform code into machine code (binary gibberish) ahead of time, in other words, before execution. This increases performance and execution speed. However, machine code can't be executed on different operating systems.
 
