@@ -1,6 +1,7 @@
 # Introduction
 
 * `DataPrep-MUN`: contents, assignments and datasets from the Data Preparation Techniques course at MUN.
+* `DataMining-MUN`: contents, assignments and datasets from the Data Mining course at MUN.
 * `src`: practicing and notes.
 
 ## Setup (Jupyter Notebook)
