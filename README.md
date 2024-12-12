@@ -1,4 +1,9 @@
-# Setup (Jupyter Notebook)
+# Introduction
+
+* `DataPrep-MUN`: contents, assignments and datasets from the Data Preparation Techniques course at MUN.
+* `src`: practicing and notes.
+
+## Setup (Jupyter Notebook)
 
 * Install Python [here](https://www.python.org/).
 * Install Jupyter (`pip install jupyter`).
