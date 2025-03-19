@@ -1,20 +1,51 @@
-# Introduction
+# Python Data Science Basics
 
-* `DataPrep-MUN`: contents, assignments and datasets from the Data Preparation Techniques course at MUN.
-* `DataMining-MUN`: contents, assignments and datasets from the Data Mining course at MUN.
-* `src`: practicing and notes.
+Welcome to the **Python Data Science Basics** repository! 🚀 This repo serves as a foundational guide for beginners and enthusiasts who want to explore the exciting world of Data Science using Python. It covers essential concepts such as data preparation and data mining, ensuring a solid grasp of key techniques in the field.
 
-## Setup (Jupyter Notebook)
+## 📂 Contents
 
-* Install Python [here](https://www.python.org/).
-* Install Jupyter (`pip install jupyter`).
-* Create a folder and open it inside the terminal.
-* Type `jupyter notebook` (this will open up the jupyter code editor on your browser).
+### `./DataPreparation`
+Data preparation is a crucial step in any data science workflow. This directory contains notebooks and scripts focused on:
 
-# A bit about Python's execution
+- **Data Cleaning**: Handling missing values, removing duplicates, and correcting errors.
+- **Data Transformation**: Normalization, scaling and more.
+- **Data Exploration**: Understanding data distributions and identifying patterns with visualizations.
 
-* **Compiled languages** transform code into machine code (binary gibberish) ahead of time, in other words, before execution. This increases performance and execution speed. However, machine code can't be executed on different operating systems.
+### `./DataMining`
+Data mining is where the magic happens! This section delves into techniques for extracting valuable insights from data, including:
 
-* **Interpreted languages** directly executes code, line by line, without a prior compilation step. This means that the application can be executed on any machine, so long as that machine has the language's interpreter. Despite this benefit, execution time normally becomes slower.
+- **Exploratory Data Analysis**: Identifying trends, correlations, and anomalies.
+- **Clustering & Classification**: Implementing K-Means, Decision Trees, and other ML models.
+- **Dimensionality Reduction**: Simplifying complex datasets with PCA and more.
+- **Association Rule Mining**: Finding hidden relationships in large datasets.
 
-Python is generally described as an interpreted language. However, it implements 'Just-In-Time Compilation' (or JIT). In this way, python code is first compiled into python **bytecode** (somewhat of a semi-compiled code) and later interpreted. Python, by default, is compiled to bytecode by **CPython** (a Python implementation) and interpreted by PVM (Python Virtual Machine). There are several Python implementations: IronPython (C# bytecode), Jython (Java bytecode, executable by JVM).
+## 🛠 Setup (Jupyter Notebook)
+
+To get started with the repository, follow these simple steps:
+
+1. Install Python from the [official website](https://www.python.org/).
+2. Install Jupyter Notebook using pip:
+   ```sh
+   pip install jupyter
+   ```
+3. Create a folder and open it inside the terminal.
+4. Launch Jupyter Notebook by running:
+   ```sh
+   jupyter notebook
+   ```
+   This will open Jupyter in your browser, allowing you to run and edit notebooks interactively.
+
+## ⚡ A Bit About Python's Execution
+
+Python is often referred to as an **interpreted language**, but there's more to the story!
+
+### 🔥 Compiled vs. Interpreted Languages
+- **Compiled languages** (like C, C++) convert source code into machine code before execution, resulting in faster runtime performance but requiring platform-specific binaries.
+- **Interpreted languages** (like Python, JavaScript) execute code line by line, making development more flexible and cross-platform but typically slower.
+
+### 🏎 Python: The Hybrid Approach
+Python is unique because it **compiles to bytecode** before interpretation:
+1. **Compilation Step**: Python code is first converted into **bytecode** (.pyc files), an intermediate form that is not machine code.
+2. **Execution Step**: The Python Virtual Machine (**PVM**) interprets the bytecode and executes it.
+
+This approach allows Python to maintain flexibility while optimizing execution. Additionally, different implementations like **Jython** (for Java bytecode) and **IronPython** (for C# bytecode) enable Python to run in diverse environments.
